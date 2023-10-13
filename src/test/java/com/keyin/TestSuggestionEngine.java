@@ -15,7 +15,7 @@ public class TestSuggestionEngine extends SuggestionEngine{
     // test case for generateSuggestions
     @Test
     public void testGenerateSuggestions() {
-        generateSuggestions("monitor");
+        generateSuggestions("monitr");
     }
     @Test
     public void testGenerateSuggestions2() {

@@ -15,15 +15,18 @@ public class TestSuggestionEngine extends SuggestionEngine{
     // test case for generateSuggestions
     @Test
     public void testGenerateSuggestions() {
-        generateSuggestions("monitr");
+
+        assert(generateSuggestions("monitr") != null);
+
     }
     @Test
     public void testGenerateSuggestions2() {
-        generateSuggestions("aple");
+        assert(generateSuggestions("aple") != null);
     }
+
     @Test
     public void testGenerateSuggestions3() {
-        generateSuggestions("able");
+        assert(generateSuggestions("abl") != null);
     }
 
 }
